@@ -75,6 +75,14 @@ button{
     padding: 20px;
 }
 
+.mat.dot{
+    background-color: #333333;
+}
+
+.mat.dot:hover{
+    background-color:#575656;
+}
+
 .mat.func, .mat.perc, .plusminus{
     background-color: grey;
     color :black;
