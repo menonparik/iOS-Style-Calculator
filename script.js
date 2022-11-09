@@ -47,7 +47,8 @@ let calcValue = () => {
             }
 
             else if(e.target.innerText == "%"){
-                text.textContent +="%"
+                let tempNum = text.innerText/100
+                text.textContent = Number(tempNum.toFixed(10))
             }
 
             else if(e.target.innerText == "."){
